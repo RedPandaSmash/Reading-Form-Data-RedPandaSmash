@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madlibs Clone</title>
+  </head>
+  <body>
+    <h2>Are you ready to begin?</h2>
+    <!-- form to enter the first word, a noun -->
+    <form action="/second-word" method="POST">
+      <label for="noun">Give me a noun! </label>
+      <input
+        type="text"
+        id="noun1"
+        name="noun"
+        placeholder="Enter your noun!"
+        required
+      />
+      <br />
+      <button id="first-word" type="submit">Insert your word!</button>
+    </form>
+    <!-- form to enter the second word, a noun -->
+    <form action="/third-word" method="POST">
+      <label for="noun">Give me a noun! </label>
+      <input
+        type="text"
+        id="noun2"
+        name="noun"
+        placeholder="Enter your noun!"
+        required
+      />
+      <br />
+      <button id="second-word" type="submit">Insert your word!</button>
+    </form>
+    <!-- form to enter the third word, a verb -->
+    <form action="/fourth-word" method="POST">
+      <label for="verb">Give me a verb! </label>
+      <input
+        type="text"
+        id="verb1"
+        name="verb"
+        placeholder="Enter your verb!"
+        required
+      />
+      <br />
+      <button id="third-word" type="submit">Insert your word!</button>
+    </form>
+    <!-- form to enter the fourth word, an adjective -->
+    <form action="/fifth-word" method="POST">
+      <label for="adjective">Give me an adjective! </label>
+      <input
+        type="text"
+        id="adjective1"
+        name="adjective"
+        placeholder="Enter your adjective!"
+        required
+      />
+      <br />
+      <button id="fourth-word" type="submit">Insert your word!</button>
+    </form>
+    <!-- form to enter the fifth and final word, a noun -->
+    <form action="/story" method="GET">
+      <label for="noun">Give me a noun! </label>
+      <input
+        type="text"
+        id="noun3"
+        name="noun"
+        placeholder="Enter your noun!"
+        required
+      />
+      <br />
+      <button id="fifth-word" type="submit">Insert your word!</button>
+    </form>
+  </body>
+</html>
