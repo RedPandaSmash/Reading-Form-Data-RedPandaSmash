@@ -49,10 +49,13 @@ app.post("/second-word", (req, res) => {
 });
 
 //post the third word
-app.post("/third-word");
+app.post("/third-word", (req, res) => {
+  });
 
 //post the fourth word
-app.post("/fourth-word");
+app.post("/fourth-word"(req, res) => {
+  });;
 
 //post the fifth word
-app.post("/fifth-word");
+app.post("/fifth-word"(req, res) => {
+  });;
